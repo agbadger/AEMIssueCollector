@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Website Feedback" height="600" scaling="false" />
+  <Content type="html">
+  <![CDATA[
+    <script type="text/javascript" src="https://alphagraphicsdev.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-nzzmca/100023/c/1000.0.11/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=feead2c6"></script>
+
+    <script type="text/javascript">window.ATL_JQ_PAGE_PROPS =  {
+	"triggerFunction": function(showCollectorDialog) {
+		//Requires that jQuery is available! 
+		jQuery("#myCustomTrigger").click(function(e) {
+			e.preventDefault();
+			showCollectorDialog();
+		});
+	}};</script>
+  ]]>
+  </Content>
+</Module>
